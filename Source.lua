@@ -645,7 +645,7 @@ end
     }), "Stroke")
 
     -- Main window with gradient background
-    local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(10, 10, 20), {
+    local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(10, 10, 20)), {
         Parent = Nova,
         Position = UDim2.new(0.5, -307, 0.5, -172),
         Size = UDim2.new(0, 615, 0, 344),
