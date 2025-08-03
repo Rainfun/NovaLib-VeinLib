@@ -21,7 +21,7 @@ This is a highly edited version of Orion Library a Discontinued Library, if you 
 
 ### Installation
 ```lua
-local VisualLib = loadstring(game:HttpGet("YOUR_SCRIPT_URL"))()
+local VisualLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rainfun/VisualLib/refs/heads/main/Source.lua"))()
 ```
 
 ### Basic Setup
@@ -37,7 +37,7 @@ local Window = VisualLib:MakeWindow({
 
 ### Creating a Simple Interface
 ```lua
-local VisualLib = loadstring(game:HttpGet("URL"))()
+local VisualLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rainfun/VisualLib/refs/heads/main/Source.lua"))()
 
 -- Create window
 local Window = VisualLib:MakeWindow({
