@@ -35,16 +35,15 @@ local VisualLib = {
     Flags = {},
     Themes = {
         Default = {
-            Main = Color3.fromRGB(73, 109, 150), -- #496d96
-            Second = Color3.fromRGB(117, 152, 193), -- #7598c1  
-            Stroke = Color3.fromRGB(208, 227, 249), -- #d0e3f9
-            Divider = Color3.fromRGB(61, 81, 105), -- #3d5169
-            Text = Color3.fromRGB(197, 183, 138), -- #c5b78a
-            TextDark = Color3.fromRGB(150, 150, 150),
-            -- Gradient colors
-            MainGradient = {Color3.fromRGB(73, 109, 150), Color3.fromRGB(61, 81, 105)},
-            ButtonGradient = {Color3.fromRGB(117, 152, 193), Color3.fromRGB(208, 227, 249)},
-            TopBarGradient = {Color3.fromRGB(208, 227, 249), Color3.fromRGB(117, 152, 193)}
+ Main = Color3.fromRGB(73, 109, 150), -- Original blue
+        Second = Color3.fromRGB(117, 152, 193),
+        Stroke = Color3.fromRGB(208, 227, 249),
+        Divider = Color3.fromRGB(61, 81, 105),
+        Text = Color3.fromRGB(197, 183, 138),
+        TextDark = Color3.fromRGB(150, 150, 150),
+        MainGradient = {Color3.fromRGB(73, 109, 150), Color3.fromRGB(61, 81, 105)},
+        ButtonGradient = {Color3.fromRGB(117, 152, 193), Color3.fromRGB(208, 227, 249)},
+        TopBarGradient = {Color3.fromRGB(208, 227, 249), Color3.fromRGB(117, 152, 193)}
         }
     },
     SelectedTheme = "Default",
